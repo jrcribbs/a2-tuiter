@@ -13,9 +13,9 @@ const mongoose = require("mongoose");
 const BookmarksController_1 = require("./bookmarks/BookmarksController");
 const FollowsController_1 = require("./follows/FollowsController");
 const MessagesController_1 = require("./messages/MessagesController");
-const cors = require('cors');
+//const cors = require('cors')
 const app = express();
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 /**
  * Options for server.
